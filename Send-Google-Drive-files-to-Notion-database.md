@@ -18,4 +18,4 @@ This workflow sends a file to a Notion database of your choosing when a new file
 6. In the n8n workflow, add the folder URL to `On file upload` node.
 
 ## How it works
-When a Google Drive file is created in the folder you specified, the workflow sends the file to the Notion database you created.
+When a Google Drive file is created in the folder you specified, the workflow sends the file to the Notion database you created. The workflow uses the `On file upload` node to trigger the workflow when a new file is created in the folder. The `Create database page` node creates a new page in the Notion database you created.
